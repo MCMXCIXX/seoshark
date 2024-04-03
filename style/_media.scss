@@ -253,6 +253,9 @@
 		width: 30px;
 		height: 30px;
 	}
+	.advantages__item {
+		background: #fff;
+	}
 	.advantages__item--traffic,
 	.advantages__item--settings,
 	.advantages__item--lock {
@@ -271,6 +274,7 @@
 	}
 	.possibilities__item {
 		max-width: 178px;
+		background: #fff;
 	}
 	.possibilities__item-inner {
 		flex-direction: column;

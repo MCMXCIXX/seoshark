@@ -184,18 +184,25 @@ h3 {
   background: #fe453c;
   padding: 15px 25px;
   border-radius: 10px;
+  border: 1px solid #fe453c;
   color: #fff;
-  transition: opacity 0.4s ease;
+  transition: background-color, color, 0.4s ease;
 }
 
 .btn:hover {
-  opacity: 0.8;
+  background: transparent;
+  color: #fe453c;
 }
 
 .btn--trans {
   border: 1px solid #fe453c;
   background: transparent;
   color: #fe453c;
+}
+
+.btn--trans:hover {
+  background: #fe453c;
+  color: #fff;
 }
 
 .header {
@@ -304,7 +311,6 @@ h3 {
 }
 
 .advantages__item {
-  background: #fff;
   border-radius: 5px;
   padding: 10px;
   display: flex;
@@ -372,7 +378,6 @@ h3 {
 
 .possibilities__item {
   padding: 10px 15px 5px 15px;
-  background: #fff;
   border-radius: 5px;
 }
 
@@ -707,7 +712,6 @@ h3 {
   outline: none;
   height: 80px;
   padding: 0 25px;
-  caret-color: transparent;
   font-size: 24px;
   padding-left: 112px;
   margin-bottom: 50px;
@@ -729,6 +733,7 @@ h3 {
 }
 
 .free__text {
+  text-align: center;
   color: #848484;
   margin-bottom: 10px;
 }
@@ -740,8 +745,6 @@ h3 {
   width: 30px;
   height: 30px;
   padding: 2px;
-  margin-right: 47px;
-  margin-left: 112px;
 }
 
 .free__custom-checkbox-fill {
@@ -756,8 +759,11 @@ h3 {
   box-shadow: 1px 1px 30px 0 rgba(0, 0, 0, 0.15);
   background: #fff;
   width: 100%;
+  max-width: 380px;
+  margin: 0 auto;
   height: 80px;
   align-items: center;
+  justify-content: center;
   margin-bottom: 60px;
   border-radius: 10px;
 }
@@ -765,15 +771,16 @@ h3 {
 .free__label {
   display: flex;
   align-items: center;
+  justify-content: center;
   cursor: pointer;
   font-family: "Inter-Medium";
   font-size: 25px;
+  gap: 25px;
 }
 
 .free__label img {
   width: 50px;
   height: 50px;
-  margin-left: 15px;
 }
 
 #free__checkbox {
@@ -788,7 +795,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: none;
+  border: 1px solid #fe453c;
   outline: none;
   cursor: pointer;
   margin: 0 auto;
@@ -1254,6 +1261,9 @@ h3 {
     width: 30px;
     height: 30px;
   }
+  .advantages__item {
+    background: #fff;
+  }
   .advantages__item--traffic,
   .advantages__item--settings,
   .advantages__item--lock {
@@ -1272,6 +1282,7 @@ h3 {
   }
   .possibilities__item {
     max-width: 178px;
+    background: #fff;
   }
   .possibilities__item-inner {
     flex-direction: column;

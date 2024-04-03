@@ -33,16 +33,22 @@ h3 {
 	background: $accent;
 	padding: 15px 25px;
 	border-radius: 10px;
+	border: 1px solid $accent;
 	color: #fff;
-	transition: opacity 0.4s ease;
+	transition: background-color, color, 0.4s ease;
 }
 .btn:hover {
-	opacity: 0.8;
+	background: transparent;
+	color: $accent;
 }
 .btn--trans {
 	border: 1px solid $accent;
 	background: transparent;
 	color: $accent;
+}
+.btn--trans:hover {
+	background: $accent;
+	color: #fff;
 }
 
 @import '_header.scss';
