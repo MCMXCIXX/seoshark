@@ -1,0 +1,28 @@
+.audience {
+	margin-bottom: 206px;
+}
+
+.audience__title {
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.audience__list {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 14px;
+}
+.audience__item {
+	font-size: 60px;
+	padding: 25px 10px;
+	border-radius: 10px;
+	background: $accent;
+	color: #fff;
+}
+.audience__number {
+	font-family: 'Inter-Medium';
+	margin-bottom: 20px;
+}
+.audience__text {
+	font-size: 24px;
+}

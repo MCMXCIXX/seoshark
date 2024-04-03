@@ -1,0 +1,49 @@
+.possibilities {
+	margin-bottom: 190px;
+}
+
+.possibilities__list {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	gap: 52px;
+}
+.possibilities__title {
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 60px;
+}
+.possibilities__item {
+	padding: 10px 15px 5px 15px;
+	background: #fff;
+	border-radius: 5px;
+}
+
+.possibilities__item-inner {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.possibilities__item-icon {
+	display: flex;
+	min-width: 70px;
+	height: 70px;
+	justify-content: center;
+	align-items: center;
+	background: $gradient;
+}
+.possibilities__item-img {
+	width: 40px;
+	height: 40px;
+}
+.possibilities__item-text {
+}
+.possibilities__item-title {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.possibilities__item-descr {
+	font-size: 20px;
+	line-height: 130%;
+	color: $grey-text;
+}

@@ -1,0 +1,106 @@
+.start {
+	margin-bottom: 190px;
+}
+
+.start__inner {
+	box-shadow: 1px 1px 30px 0 rgba(0, 0, 0, 0.15);
+	border-radius: 10px;
+	background: #fff;
+	padding: 66px 0 93px 0;
+}
+.start__title {
+	font-size: 50px;
+	margin-bottom: 88px;
+	text-align: center;
+}
+.start__algorithm {
+	position: relative;
+	min-height: 530px;
+}
+.start__step {
+	position: absolute;
+	border-radius: 10px;
+	padding: 25px;
+	width: 285px;
+	height: 110px;
+	background: $accent;
+	text-align: center;
+	font-size: 25px;
+	color: #fff;
+}
+.start__first-step {
+	top: 0;
+	left: 115px;
+}
+.start__algorithm-arrow {
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 11;
+}
+
+.start__algorithm-arrow--first {
+	height: 60px;
+	width: 8px;
+	background-image: url(../images/start/start-arrow.svg);
+	top: 122px;
+	left: 256px;
+}
+.start__algorithm-arrow--first::after {
+	display: flex;
+	content: 'Есть понимание';
+	color: $grey-text;
+	font-size: 20px;
+	line-height: 120%;
+	transform: translateX(30px);
+}
+.start__second-step {
+	left: 115px;
+	top: 200px;
+}
+.start__algorithm-arrow--second {
+	height: 60px;
+	width: 8px;
+	background-image: url(../images/start/start-arrow.svg);
+	top: 322px;
+	left: 256px;
+}
+.start__third-step {
+	left: 115px;
+	top: 400px;
+}
+.start__algorithm-arrow--third {
+	width: 125px;
+	height: 8px;
+	background-image: url(../images/start/arrow-tg.svg);
+	left: 418px;
+	bottom: 65px;
+	background-position: center right;
+}
+.start__fourth-step {
+	top: 400px;
+	left: 565px;
+}
+.start__algorithm-arrow--fourth {
+}
+.start__tg-step {
+	width: 337px;
+	top: 0;
+	right: 213px;
+}
+.start__algorithm-arrow--rg {
+	width: 350px;
+	height: 8px;
+	background-image: url(../images/start/arrow-tg.svg);
+	left: 418px;
+	top: 55px;
+	background-position: center right;
+}
+.start__algorithm-arrow--rg::before {
+	display: flex;
+	content: 'Индивидуальный заказ, либо нужна помощь с выбором';
+	color: $grey-text;
+	font-size: 20px;
+	line-height: 120%;
+	transform: translateY(-100%);
+}

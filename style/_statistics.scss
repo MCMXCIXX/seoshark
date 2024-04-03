@@ -1,0 +1,31 @@
+.statistics {
+	margin-bottom: 190px;
+}
+
+.statistics__inner {
+}
+.statistics__title {
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.statistics__content {
+	display: flex;
+	justify-content: space-between;
+}
+.statistics__item {
+	display: flex;
+	gap: 16px;
+	align-items: center;
+}
+.statistics__number {
+	font-family: 'Inter-Medium';
+	font-size: 60px;
+	letter-spacing: -0.06em;
+	color: #44aaf2;
+}
+.statistics__text {
+	font-size: 20px;
+	color: $grey-text;
+	max-width: 177px;
+}

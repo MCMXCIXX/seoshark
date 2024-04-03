@@ -1,0 +1,61 @@
+@import '_reset.scss';
+@import '_font-face.scss';
+@import '_vars.scss';
+
+* {
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Inter-Regular', sans-serif;
+	font-size: 20px;
+	background: #fafcfa;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+	font-family: 'Inter-Medium';
+	color: $grey-text;
+}
+.container {
+	max-width: 1370px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+h2,
+h3 {
+	font-family: 'Inter-Medium';
+}
+.btn {
+	background: $accent;
+	padding: 15px 25px;
+	border-radius: 10px;
+	color: #fff;
+	transition: opacity 0.4s ease;
+}
+.btn:hover {
+	opacity: 0.8;
+}
+.btn--trans {
+	border: 1px solid $accent;
+	background: transparent;
+	color: $accent;
+}
+
+@import '_header.scss';
+@import '_promo.scss';
+@import '_advantages.scss';
+@import '_possibilities.scss';
+@import '_audience.scss';
+@import '_start.scss';
+@import '_rates.scss';
+@import '_statistics.scss';
+@import '_free.scss';
+@import '_faq.scss';
+@import '_footer.scss';
+@import '_results.scss';
+
+@import '_media.scss';
